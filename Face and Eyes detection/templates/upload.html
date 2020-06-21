@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Upload Image files
+</title>
+<style>
+body{
+text-align:center;
+background-color:lightblue;
+}
+.text{
+color:green;
+font-family:courier;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<form action="http://127.0.0.1:5000/upload" method = "post" enctype="multipart/form-data" required>
+<p class="text">Upload Image files </p>
+<br>
+<input type="file" name="fileName"/>
+<br>
+<br>
+<input type="submit" value="Upload"/>
+</form>
+</body>
+</html>
